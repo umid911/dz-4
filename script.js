@@ -5,7 +5,7 @@ const data = ['Иван', 'Иванов', 'Отдел разработки', 'П
 
 function func(emp) {
 
-    let [data1, data2, data3, data4, data5, ] = data
+    let [data1, data2, data3, data4, data5, ] = emp
 
     console.log(data1, data2, data3, data4, data5, );
 }
@@ -19,7 +19,7 @@ const data2 = ['Иван', 'Иванов', 'Отдел разработки', '�
 
 function func2(emp) {
 
-    let [data1, data2, data3] = data
+    let [data1, data2, data3] = emp
 
     console.log(data1, data2, data3);
 }
